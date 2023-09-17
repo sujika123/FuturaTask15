@@ -8,7 +8,7 @@ num = 0
 while (num < len(list1)):
 
     # checking condition
-    if list1[num] >= 0:
+    if list1[num] > 0:
         print(list1[num], end=" ")
 
     # increment num
